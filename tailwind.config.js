@@ -9,7 +9,7 @@ module.exports = {
       'md': {'max': '1023px'},
       // => @media (min-width: 768px and max-width: 1023px) { ... }
 
-      'lg': { 'max': '1279px'},
+      'lg': { 'min': '1390px'},
       // => @media (min-width: 1024px and max-width: 1279px) { ... }
 
       'xl': {'max': '1535px'},
